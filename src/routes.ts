@@ -13,7 +13,6 @@ const usercontroller = new UserController;
 const gitUser = new GitUser;
 const FileDownload = new FileDownloader;
 
-
 // Routes
 router.post('/login',authUser.authenticate)
 router.get('/readusers', usercontroller.readUser); 
